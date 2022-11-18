@@ -1,7 +1,7 @@
-function suma(x,y){
+export function suma(x,y){
     return x + y
 }
-function resta(x,y){
+export function resta(x,y){
     return x - y
 }
 function mult(x,y){
@@ -17,7 +17,7 @@ function div(x,y){
 
 //Exportacion de modulos
 
-module.exports = {
+export default {
     suma,
     resta,
     mult,
